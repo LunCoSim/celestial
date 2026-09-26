@@ -31,7 +31,7 @@ celestial-pointing = { path = "celestial-pointing" }
 celestial-solver = { path = "celestial-solver" }
 celestial-wcs = { path = "celestial-wcs" }
 
-celestial-eop-data = "0.1"
+celestial-eop-data = { git = "https://github.com/LunCoSim/celestial-eop-data", rev = "3a0f7795b4be4d9965df6ec4f3b029fa1583d15e" }
 
 # External dependencies
 anyhow = "1.0"
